@@ -1,0 +1,53 @@
+.pincipalTitulo
+{
+    padding-left: 40px;
+    background-color: aliceblue;
+    text-align: center;
+}
+#banner
+{
+    width: 100%;
+    height: 500px;
+    background: whitesmoke;
+}
+.principal
+{
+    padding: 20px;    
+}
+.titulos
+{
+    text-align: center;
+
+}
+p
+{
+    text-align: center;
+}
+em
+{
+    font-size: 20px;
+    color: silver;
+}
+.diferenciales
+{
+    font-size: 30px;
+    padding: 10px;
+    background: whitesmoke;
+}
+
+.items
+{
+    font-style: italic;
+}
+ul
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imgDif
+{
+    width: 50%;
+    height: 500px;
+}

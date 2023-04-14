@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contanto - Alura</title>
+    <link rel="stylesheet"  href="reset.css">
+    <link rel="stylesheet" href="Style.css">    
+</head>
+<body>
+    <header id = "banner">
+        <div class="caja">
+            <h1>
+                <img src="imagenes2/imagenes/logo.png">
+                </h1>
+                <nav>
+                    <ul>
+                        <li>  <a href="index.html">Home</li></a> 
+                        <li><a href="productos.html">Productos</a> </li>
+                        <li><a href="Contacto.html">Contacto</a> </li>
+                    </ul>
+                </nav>
+        </div>
+    </header> 
+    <main>
+        <form>
+            <label for="Nombre-apellido">Nombre y Apellido</label>
+            <input type="text" id="Nombre-apellido" class="inputPadron">
+            <label for="Correo">Correo de Contacto</label>
+            <input type="email" id="Correo" class="inputPadron">
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" class="inputPadron">
+            <label for="Mensaje">Mensaje</label>
+            <textarea id="Mensaje" cols="70" rows="10"></textarea>
+            <div>
+                <p>Elija un método de Contacto</p>
+                <label for="OpEmail"><input type="radio" name="Contacto" value="email" id="OpEmail"> Email</label>
+                <label for="OpTelefono"><input type="radio" name="Contacto" value="telefono" id="OpTelefono"> Llamada</label>
+                <label for="Opwhatsaap"><input type="radio" name="Contacto" value="Whatsaap" id="Opwhatsaap"> Whatsaap</label>                
+            </div>
+            <div>
+                <p>¿En que Horario desea agendar su cita?</p>
+                <select name="" id="">
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option value="">Noche</option>
+                </select>                
+            </div>
+            <label class="Checkbox"><input type="checkbox">¿Le gustaria recibir notificaciones?</label>
+            <input type="submit" value="Enviar datos">
+        </form>        
+    </main>
+    <footer>
+        <img src="imagenes2/imagenes/logo-blanco.png">
+        <p id="textCopy">&copy Copyright Barber Alura - 2023</p>        
+    </footer>
+</body>
+</html>
