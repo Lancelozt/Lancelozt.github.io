@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contanto - Alura</title>
+    <link rel="stylesheet"  href="reset.css">
+    <link rel="stylesheet" href="Style.css">    
+</head>
+<body>
+    <header id = "banner">
+        <div class="caja">
+            <h1>
+                <img src="imagenes2/imagenes/logo.png" alt="logo_alura">
+                </h1>
+                <nav>
+                    <ul>
+                        <li>  <a href="index.html">Home</li></a> 
+                        <li><a href="productos.html">Productos</a> </li>
+                        <li><a href="Contacto.html">Contacto</a> </li>
+                    </ul>
+                </nav>
+        </div>
+    </header> 
+    <main>
+        <form>
+            <label for="Nombre-apellido">Nombre y Apellido</label>
+            <input type="text" id="Nombre-apellido" class="inputPadron" required>
+            <label for="Correo">Correo de Contacto</label>
+            <input type="email" id="Correo" class="inputPadron" required 
+            placeholder="email@dominio.com">
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" class="inputPadron" required
+            placeholder="(+codigo pais) xxxxxxxxxx">
+            <label for="Mensaje">Mensaje</label>
+            <textarea id="Mensaje" cols="70" rows="10"></textarea>
+            <fieldset>
+                <legend>Elija un método de Contacto</legend>
+                <label for="OpEmail"><input type="radio" name="Contacto" value="email" id="OpEmail"> Email</label>
+                <label for="OpTelefono"><input type="radio" name="Contacto" value="telefono" id="OpTelefono"> Llamada</label>
+                <label for="Opwhatsaap"><input type="radio" name="Contacto" value="Whatsaap" id="Opwhatsaap" checked> Whatsaap</label>                
+            </fieldset>
+            <fieldset>
+                <legend>¿En que Horario desea agendar su cita?</legend> 
+                <select name="" id="">
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option value="">Noche</option>
+                </select>                
+            </fieldset>
+            <label class="Checkbox"><input type="checkbox">¿Le gustaria recibir notificaciones?</label>
+            <input type="submit" value="Enviar datos" class="Enviar">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                </tr>                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>8hrs - 22 hrs</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>8hrs - 22hrs</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>9hrs - 20hrs</td>
+                </tr>                
+            </tbody>
+        </table>                       
+    </main>
+    <footer>
+        <img src="imagenes2/imagenes/logo-blanco.png">
+        <p id="textCopy">&copy Copyright Barber Alura - 2023</p>        
+    </footer>
+</body>
+</html>
