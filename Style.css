@@ -100,7 +100,7 @@ form
 {
     margin: 40px 0px;
 }
-form label, form p
+form label, form legend
 {
     display: block;
     font-size: 20px;
@@ -116,4 +116,22 @@ form label, form p
 .Checkbox
 {
     margin: 20px 0;
+}
+.Enviar
+{
+    width: 40%;
+    padding:  15px 0;   
+    font-size: 18px;
+    font-weight: bold;
+    color:  white;
+    background: orange;
+    border: none; 
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.Enviar:hover
+{
+    background: darkorange;
+    transform: scale(1.20) rotate(360deg);
 }
